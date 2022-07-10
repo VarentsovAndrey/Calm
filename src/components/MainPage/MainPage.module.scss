@@ -1,0 +1,17 @@
+.page_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding-left: 230px;
+  padding-bottom: 8px;
+  margin: auto;
+  height: auto;
+  background-color: black;
+}
+
+.main__title {
+  width: 560px;
+  color: white;
+}

@@ -1,0 +1,23 @@
+.input {
+    display: flex;
+    width: 558px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    align-items: center;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin-bottom: 8px;
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.input__logo {
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.input__text {
+    color: white;
+}

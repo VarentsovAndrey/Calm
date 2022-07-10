@@ -1,0 +1,36 @@
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 120px;
+  margin-right: 230px;
+  margin-left: 230px;
+  background-color: black;
+}
+
+.header__logo {
+  width: 100px;
+  height: 39px;
+}
+
+.header__nav {
+  margin-left: 385px;
+  display: flex;
+
+  align-items: center;
+}
+
+.header__link {
+  margin: 0;
+  color: white;
+  border: solid 2px transparent;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1s ease;
+
+  &:hover {
+    border: 2px solid rgb(255, 255, 255);
+    transition: 1.5s;
+  }
+}
